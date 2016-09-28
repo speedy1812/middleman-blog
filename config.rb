@@ -66,3 +66,10 @@ configure :build do
   # Minify Javascript on build
   # activate :minify_javascript
 end
+
+# Initialise Gulp Starter when running `middleman build` and `middleman serve`
+activate :external_pipeline,
+	name: :gulp,
+	command: build? ? 'npm run production' : 'npm run gulp',
+	source: ".tmp",
+	latency: 1
