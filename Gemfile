@@ -18,5 +18,5 @@ gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 gem "builder", "~> 3.0"
 
 # group :development do
-  gem 'middleman-livereload'
+  # gem 'middleman-livereload'
 # end
