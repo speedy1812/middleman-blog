@@ -20,3 +20,7 @@ gem "builder", "~> 3.0"
 # group :development do
   # gem 'middleman-livereload'
 # end
+
+gem "bourbon"
+gem "bitters"
+gem "neat"
